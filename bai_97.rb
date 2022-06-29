@@ -7,10 +7,11 @@ puts "c: "
 c = gets.chomp.to_i
 if a == c && b == c
     puts "tam giac deu"
-    elsif a * a + b * b == c * c && a * c + c * c == b * b && b *b +c * c = a * c
+elsif a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a
     puts "tam giac vuong" 
-    elsif a == b && b == c && a == c
+elsif a == b || b == c || a == c
     puts "tam giac can"
-    else
-        puts "tam giac thuong"
-    end
+elsif 
+else
+    puts "tam giac thuong"
+end

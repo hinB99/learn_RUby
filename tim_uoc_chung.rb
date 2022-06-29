@@ -1,4 +1,4 @@
-def tim_uoc_chung (a,b)
+def tim_uoc_chung(a, b)
     max_number = 0
     (1..a).each do |index|
         if a % index == 0 && b % index == 0 && max_number < index 
